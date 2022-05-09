@@ -1,0 +1,21 @@
+{
+    "name": "e-dubovic/gof-php",
+    "description": "GoF",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Edubovic\\GofPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Edward Dubovic",
+            "email": "edward.dubovic@gmail.com"
+        }
+    ],
+    "require": {
+        "rmccue/requests": "^2.0",
+        "adhocore/cli": "^0.9.1"
+    }
+}
